@@ -1,0 +1,10 @@
+<project name="exercicios_teste_unitario">
+    <skin>
+        <groupId>org.apache.maven.skins</groupId>
+        <artifactId>maven-fluido-skin</artifactId>
+        <version>1.5</version>
+    </skin>
+    <body>
+        <menu ref="reports"/>
+    </body>
+</project>
