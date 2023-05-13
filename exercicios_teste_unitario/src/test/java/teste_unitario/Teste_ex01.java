@@ -29,4 +29,9 @@ public void validaPalavraIncorreta(){
     public void retornaTamVetor(){
         Assert.assertEquals(3, EX01.retornaTamVetor());
 }
+@Test //EX4
+    public void inserirNota(){
+    Assert.assertTrue(EX01.inserirNota());    
+
+    }
 }

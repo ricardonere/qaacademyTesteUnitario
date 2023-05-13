@@ -33,4 +33,12 @@ public static int retornaTamVetor(){
     nomes[2] = "Jaco";
     return nomes.length;
 }
+//exercicio 4
+public static boolean inserirNota(){
+    String nota = JOptionPane.showInputDialog("Digite sua nota");
+    if (nota.length()/2>= 0){
+        return true;
+    }
+    return false;
+}
 }
